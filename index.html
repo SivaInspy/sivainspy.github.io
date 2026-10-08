@@ -1,20 +1,61 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: Arial; margin: 40px; }
-        h1 { color: #2c3e50; }
-    </style>
+    <meta charset="UTF-8">
+    <title>Sivakumar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, I'm Sivakumar</h1>
-    <p>Welcome to my portfolio website!</p>
-    <h2>Projects</h2>
-    <ul>
-        <li><a href="https://github.com/SivaInspy/ecommerce-data-platform">E-commerce Data Platform</a></li>
-        <li><a href="https://github.com/SivaInspy">More Projects on GitHub</a></li>
-    </ul>
+    <header>
+        <h1>Sivakumar Dayalan</h1>
+        <p>Senior Data Engineer | Big Data | Cloud</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Senior Data Engineer with 7+ years of experience in building scalable data platforms across AWS, GCP, and Azure. I specialize in Spark, Kafka, and modern lakehouse architectures.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, Scala, SQL</li>
+            <li>Apache Spark, PySpark, Kafka</li>
+            <li>AWS, GCP, Azure</li>
+            <li>Databricks, Delta Lake, Snowflake</li>
+            <li>Airflow, Cloud Composer</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Real-Time E-Commerce Data Platform</h3>
+            <p>Built with Kafka, PySpark, Docker, and Power BI.</p>
+            <a href="https://github.com/SivaInspy/ecommerce-data-platform" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3>Banking Data Platform</h3>
+            <p>Optimized Spark workloads on GCP BigQuery and Dataproc.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sivainspy@gmail.com">sivainspy@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/siva-inspy" target="_blank">linkedin.com/in/siva-inspy</a></p>
+        <p>GitHub: <a href="https://github.com/SivaInspy" target="_blank">github.com/SivaInspy</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sivakumar Dayalan. All rights reserved.</p>
+    </footer>
 </body>
 </html>
